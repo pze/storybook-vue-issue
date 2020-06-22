@@ -5,9 +5,11 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "storybook": "start-storybook --ci -p 61116"
   },
   "dependencies": {
+    "@storybook/vue": "^5.3.19",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
